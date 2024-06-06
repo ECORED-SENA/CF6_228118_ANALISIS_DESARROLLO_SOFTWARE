@@ -2,17 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Generalidades de la propuesta técnica
-    p Para el diseño, construcción y presentación de una propuesta técnica de servicios de #[i software], es esencial considerar aspectos y elementos importantes que definen su carácter y proporcionan seguridad y confianza tanto al oferente como al cliente.
-    p.mb-5 Los aspectos clave para el éxito de una propuesta técnica son:
+    p(data-aos="fade-right") Para el diseño, construcción y presentación de una propuesta técnica de servicios de #[i software], es esencial considerar aspectos y elementos importantes que definen su carácter y proporcionan seguridad y confianza tanto al oferente como al cliente.
+    p.mb-5(data-aos="fade-right") Los aspectos clave para el éxito de una propuesta técnica son:
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img1.png', style="width:300px" alt='').m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         .p-4.bg-c29
           ul.lista-ul--separador.mb-0
             li.d-flex
@@ -45,11 +45,11 @@
               p.mb-0 #[b Características del #[i software]]
                 br
                 | Detallar las funcionalidades y especificaciones del software propuesto.
-    p.mb-5 A continuación, se presentan las generalidades que debe conocer, comprender y examinar detenidamente.
+    p.mb-5(data-aos="fade-right") A continuación, se presentan las generalidades que debe conocer, comprender y examinar detenidamente.
     .row.mb-5
       .col-12
-        .p-4.p-lg-5.bg-c30
-          SlyderF(columnas="col-lg-6 col-xl-4")
+        .p-4.p-lg-5.bg-c30(data-aos="fade-down")
+          SlyderF(columnas="col-md-6 col-xl-4")
             .tarjeta.color-acento-botones.p-4
               .row
                 .col-12
@@ -127,12 +127,12 @@
                     img(src='@/assets/curso/tema4/img13.png', style="width:400px" alt='').m-auto
                   p.text-center #[b Freelance]
                   p.text-center.mb-0 Trabajo o trabajador independiente.
-    p.mb-5 Cuando se trabaja con clientes en proyectos, especialmente en áreas como el desarrollo de #[i software], es esencial estructurar la interacción y comprensión de las necesidades y expectativas del cliente de manera organizada. A continuación, se presentan los aspectos clave para gestionar y entender eficazmente las relaciones y requisitos del cliente, facilitando así una comunicación efectiva y la toma de decisiones informadas.
+    p.mb-5(data-aos="fade-right") Cuando se trabaja con clientes en proyectos, especialmente en áreas como el desarrollo de #[i software], es esencial estructurar la interacción y comprensión de las necesidades y expectativas del cliente de manera organizada. A continuación, se presentan los aspectos clave para gestionar y entender eficazmente las relaciones y requisitos del cliente, facilitando así una comunicación efectiva y la toma de decisiones informadas.
     .row
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img14.png', style="width:380px" alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Relación con el cliente")
             .col-12

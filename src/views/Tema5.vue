@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Costos
     .row
       .col-lg-9.order-2.order-lg-1
-        p El costo, también llamado coste, representa el valor económico que se incurre para #[b producir un producto, prestar un servicio o vender un bien]. Es fundamental tener en cuenta la adquisición de insumos y los gastos derivados de la producción, tales como #[b el pago de mano de obra, gastos administrativos, entre otros].
+        p(data-aos="fade-right") El costo, también llamado coste, representa el valor económico que se incurre para #[b producir un producto, prestar un servicio o vender un bien]. Es fundamental tener en cuenta la adquisición de insumos y los gastos derivados de la producción, tales como #[b el pago de mano de obra, gastos administrativos, entre otros].
         .row
           .col-12
-            .p-4.bg-c31
+            .p-4.bg-c31(data-aos="fade-down")
               .row
                 .col-auto.d-none.d-md-block
                   figure.mt-1
@@ -40,7 +40,7 @@
                       |
                       p.mb-0 #[b ¿Es necesario adquirir equipos tecnológicos?]
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img1.png', style="width:300px" alt='').m-auto
 
 </template>

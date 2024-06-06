@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Fichas técnicas
-    p.mb-5 Una ficha técnica es un documento que detalla las características o funciones de un #[i software] desarrollado, funcionando como una herramienta esencial para transmitir información relevante sobre un tema específico. Este documento contiene datos útiles y concisos, cuyo contenido varía según la finalidad y el tipo de ficha.
+    p.mb-5(data-aos="fade-right") Una ficha técnica es un documento que detalla las características o funciones de un #[i software] desarrollado, funcionando como una herramienta esencial para transmitir información relevante sobre un tema específico. Este documento contiene datos útiles y concisos, cuyo contenido varía según la finalidad y el tipo de ficha.
     .row.mb-5
       .col-12
-        .p-4.bg-c26
+        .p-4.bg-c26(data-aos="fade-left")
           .row.justify-content-center
             .col-lg-8.order-2.order-lg-1
               p.mb-0 #[b La ficha técnica es especialmente útil para comercializar o promocionar un producto o servicio. Es crucial que contenga información veraz, ofreciendo datos claros y precisos sobre las características de los productos de #[i software] desarrollados.]
@@ -26,7 +26,7 @@
             .col
               h3.text-white Elaboración de la ficha técnica
     .row.align-items-center.mb-5
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row.mb-3
           .col-md-auto.d-none.d-md-block
             figure.mt-2
@@ -46,7 +46,7 @@
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Conceptos.pdf')" target="_blank")
                     span Ver enlace
                     i.fas.fa-link
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img1.png', style="width:270px" alt='').m-auto
     .row.mb-4.pt-4(data-aos="fade-down")
@@ -58,13 +58,13 @@
                 img(src='@/assets/curso/tema1/img8.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Diligenciamiento
-    p.mb-5 A continuación, se realiza la descripción para el diligenciamiento de un ejemplo de una ficha técnica de productos de software.
+    p.mb-5(data-aos="fade-right") A continuación, se realiza la descripción para el diligenciamiento de un ejemplo de una ficha técnica de productos de software.
     .row.bg-c27
       .col-12
         .px-5
           .row.mb-5
             .col-12
-              .p-4.p-lg-5.bg-c28
+              .p-4.p-lg-5.bg-c28(data-aos="fade-right")
                 .titulo-sexto.color-acento-contenido.mb-4
                   p.mb-0 #[b Tabla 1.] Ejemplo ficha técnica
                 .tabla-a.color-primario
@@ -120,7 +120,7 @@
                           p.mb-0 #[b Clientes del producto:] características del cliente o usuarios finales que puedan usar el producto.
           .row.mb-5
             .col-12
-              .p-4.p-lg-5.bg-c28
+              .p-4.p-lg-5.bg-c28(data-aos="fade-left")
                 .titulo-sexto.color-acento-contenido.mb-4
                   p.mb-0 #[b Tabla 2.] Historial de modificaciones
                 .tabla-a.color-primario
@@ -144,7 +144,7 @@
                         td 25/08/2021
           .row
             .col-12
-              .p-4.p-lg-5.bg-c28
+              .p-4.p-lg-5.bg-c28(data-aos="fade-right")
                 .titulo-sexto.color-acento-contenido.mb-4
                   p.mb-0 #[b Tabla 3.] Firmas
                 .tabla-a.color-primario
