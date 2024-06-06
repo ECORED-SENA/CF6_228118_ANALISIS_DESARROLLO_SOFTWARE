@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="80" viewBox="0 0 85 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403245" data-name="Rectángulo 403245" width="85" height="80" rx="10" transform="translate(1335 5500)" fill="#aec4fa"/>
+    </clipPath>
+    <filter id="Trazado_878583" x="10" y="-49.376" width="133.122" height="132.752" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#0049ff" flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Enmascarar_grupo_1098757" data-name="Enmascarar grupo 1098757" transform="translate(-1335 -5500)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 1335, 5500)" filter="url(#Trazado_878583)">
+      <path id="Trazado_878583-2" data-name="Trazado 878583" d="M27.559,54.749A27.377,27.377,0,1,1,55.117,27.37,27.5,27.5,0,0,1,27.559,54.749Zm0-47.821A20.445,20.445,0,1,0,48.143,27.37,20.537,20.537,0,0,0,27.559,6.928Z" transform="translate(49 -13.37)" fill="#0046f4" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
