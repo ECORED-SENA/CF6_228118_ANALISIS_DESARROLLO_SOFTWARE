@@ -19,11 +19,11 @@
                 li.d-flex
                   i.fas.fa-code(style="color:#1682FB")
                   |
-                  p.mb-0 Entre más especiahzado sea un sistema, tiene menos capacidad de adaptarse a circunstancias diferentes.
+                  p.mb-0 Entre más especializado sea un sistema, tiene menos capacidad de adaptarse a circunstancias diferentes.
                 li.d-flex
                   i.fas.fa-code(style="color:#1682FB")
                   |
-                  p.mb-0 Cuanto mavor sea el sistema, mavor es el número de recursos que deben dedicarse a su mantenimiento diario.
+                  p.mb-0 Cuanto mayor sea el sistema, mayor es el número de recursos que deben dedicarse a su mantenimiento diario.
                 li.d-flex
                   i.fas.fa-code(style="color:#1682FB")
                   |
@@ -159,21 +159,21 @@
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Naturaleza
+                    p.mb-0 Naturaleza.
             .col-10.col-lg.m-2
               .p-4.bg-c10(data-aos="fade-down")
                 ul.lista-ul--separador.mb-0
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Forma de obtención
+                    p.mb-0 Forma de obtención.
             .col-10.col-lg.m-2
               .p-4.bg-c10(data-aos="fade-up")
                 ul.lista-ul--separador.mb-0
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Aplicación
+                    p.mb-0 Aplicación.
           .row.justify-content-center
             .col-10.col-lg.m-2
               .p-4.bg-c10(data-aos="fade-left")
@@ -181,21 +181,21 @@
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Grado de  desarrollo
+                    p.mb-0 Grado de  desarrollo.
             .col-10.col-lg.m-2
               .p-4.bg-c10(data-aos="fade-down")
                 ul.lista-ul--separador.mb-0
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Injerencia
+                    p.mb-0 Injerencia.
             .col-10.col-lg.m-2
               .p-4.bg-c10(data-aos="fade-up")
                 ul.lista-ul--separador.mb-0
                   li.d-flex.mb-0
                     i.fas.fa-code(style="color:#1682FB")
                     |
-                    p.mb-0 Pertinencia
+                    p.mb-0 Pertinencia.
     p.mb-5(data-aos="fade-right") El concepto de gestión de la tecnología se entiende como el proceso de administración, compra, aplicación y propagación de esta, en diferentes sectores, entre ellos:
     .row.bg-c12
       .col-12
@@ -249,7 +249,9 @@
         .px-5
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              
               .crd_hover_txt1(data-aos="flip-left")
+                .indicador--click(v-if="mostrarIndicador")
                 .crd_hover_txt1--img
                   figure
                     img(src="@/assets/curso/tema1/img4.png", alt="alt")
@@ -258,6 +260,7 @@
                   p.text-center.mb-0 Se pretende inventariar y evaluar los recursos tecnológicos con los que cuenta la empresa.
             .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
               .crd_hover_txt1(data-aos="flip-left")
+                .indicador--click(v-if="mostrarIndicador")
                 .crd_hover_txt1--img
                   figure
                     img(src="@/assets/curso/tema1/img5.png", alt="alt")
@@ -278,7 +281,7 @@
                     figure
                       img(src='@/assets/curso/tema1/img21.svg', style="width:80px" alt='').m-auto
                   .col
-                    p.mb-0 Como objetivo principal, el diagnóstico tecnológico identifica diversas capacidades de la empresa para un desarrollo eficiente de innovaciones. Funciona esencialmente como una herramienta que distingue entre las capacidades que son necesarias y las que actualmente posee la empresa (brechas).
+                    p.mb-0 Como objetivo principal, el diagnóstico tecnológico identifica diversas capacidades de la empresa para un desarrollo eficiente de innovaciones. Funciona esencialmente como una #[b herramienta] que distingue entre las capacidades que son necesarias y las que actualmente posee la empresa (#[b brechas]).
           .row.justify-content-center.mb-5
             .col-lg-10
               .tarjeta.color-primario.p-3(data-aos="fade-left")
@@ -404,7 +407,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

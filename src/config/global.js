@@ -181,14 +181,14 @@ export default {
     {
       tema: 'Licencias de <i>software</i>',
       referencia:
-        'Evaluando Software. (2021). Las licencias de <i>software</i>.',
+        'Evaluando <i>Software</i>. (2021). Las licencias de <i>software</i>.',
       tipo: 'Artículo',
       link: 'https://www.evaluandosoftware.com/las-licencias-software/',
     },
     {
       tema: 'Licencias de <i>software</i>',
       referencia:
-        'Bazán, V. (2020). ¿Conoces los tipos de licencia de <i>software</i>? Aquí te desglosamos el tema. OK hosting.',
+        'Bazán, V. (2020). ¿Conoces los tipos de licencia de <i>software</i>? Aquí te desglosamos el tema. <i>OK hosting</i>.',
       tipo: 'Artículo',
       link: 'https://okhosting.com/blog/tipos-de-licencia-de-software',
     },
@@ -225,7 +225,7 @@ export default {
     {
       termino: 'GPL (<i>General Public License</i>)',
       significado:
-        'licencia que regula los derechos de autor de los programas de software libre.',
+        'licencia que regula los derechos de autor de los programas de <i>software</i> libre.',
     },
     {
       termino: 'Innovación',
@@ -235,7 +235,7 @@ export default {
     {
       termino: '<i>Open source</i>',
       significado:
-        'término de la informática que se refiere a software con código fuente accesible para todos.',
+        'término de la informática que se refiere a <i>software</i> con código fuente accesible para todos.',
     },
     {
       termino: '<i>Software</i>',
@@ -443,11 +443,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador de Recursos Educativos Digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         //{
         //  nombre: 'Jaime Hernán Tejada Llano',
         //  cargo: 'Validador de Recursos Educativos Digitales',

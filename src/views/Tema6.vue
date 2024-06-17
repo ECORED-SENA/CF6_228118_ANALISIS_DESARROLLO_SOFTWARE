@@ -11,7 +11,7 @@
         .p-4.bg-c28(data-aos="fade-right")
           .row.align-items-center
             .col-lg-10.order-2.order-lg-1
-              p.mb-0 La propuesta técnica es un documento crucial que se entrega al potencial cliente, donde se detalla la estrategia propuesta para resolver un problema existente. El formato y contenido de la propuesta pueden variar según el tipo de organización solicitante, ya sea privada, gubernamental, fundación o ONG. En estos casos, es importante adaptar la propuesta a los formatos específicos requeridos por cada tipo de organización. Una propuesta debe ser clara, concreta, explícita y fácil de entender.
+              p.mb-0 La propuesta técnica es un documento crucial que se entrega al potencial cliente, donde se detalla la estrategia propuesta para resolver un problema existente. El formato y contenido de la propuesta pueden variar según el tipo de organización solicitante, ya sea privada, gubernamental, fundación u ONG. En estos casos, es importante adaptar la propuesta a los formatos específicos requeridos por cada tipo de organización. Una propuesta debe ser clara, concreta, explícita y fácil de entender.
             .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema6/img1.svg', style="width:180px" alt='').m-auto
@@ -87,13 +87,13 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema6/img5.svg', style="width:110px" alt='')
                 p #[b Empresa nueva]
-                p.mb-0 Cuando una empresa es nueva y no maneja los TdR, el experto informático debe acordar una reunión con las partes interesadas o stakeholders. En esta reunión, se deben hacer preguntas sobre el funcionamiento de la empresa, los procesos que manejan, los servicios que prestan y en qué sector económico están.
+                p.mb-0 Cuando una empresa es nueva y no maneja los TdR, el experto informático debe acordar una reunión con las partes interesadas o #[i stakeholders]. En esta reunión, se deben hacer preguntas sobre el funcionamiento de la empresa, los procesos que manejan, los servicios que prestan y en qué sector económico están.
             .col-md-8.col-lg-6
               .p-4.bg-c19.shadow.h-100(data-aos="fade-left")
                 figure.mb-4
                   img(src='@/assets/curso/tema6/img6.svg', style="width:110px" alt='')
                 p #[b Presupuesto]
-                p.mb-0 En la mayoría de las ocasiones, y en búsqueda de un servicio justo, será posible proponer un diálogo sobre el presupuesto proyectado para la solución de software; asimismo, sobre la matriz DOFA de la empresa, para tener claras sus necesidades y ofrecer los servicios adecuados en una propuesta técnica.
+                p.mb-0 En la mayoría de las ocasiones, y en búsqueda de un servicio justo, será posible proponer un diálogo sobre el presupuesto proyectado para la solución de #[i software]; asimismo, sobre la matriz DOFA de la empresa, para tener claras sus necesidades y ofrecer los servicios adecuados en una propuesta técnica.
           .row.mb-4.pt-4(data-aos="fade-down")
             .col-auto.bg-c7
               .px-3.pb-0
@@ -126,7 +126,7 @@
     #t_6_1
     .titulo-segundo.color-acento-contenido
       h2 6.1 Validación de la propuesta técnica
-    p(data-aos="fade-right") La validación de la propuesta técnica para servicios de software se rige y determina por varios factores críticos, incluyendo la normatividad, los procesos de contratación o licitación y las garantías de efectividad de la propuesta, entre otros aspectos.
+    p(data-aos="fade-right") La validación de la propuesta técnica para servicios de #[i software] se rige y determina por varios factores críticos, incluyendo la normatividad, los procesos de contratación o licitación y las garantías de efectividad de la propuesta, entre otros aspectos.
     p.mb-5(data-aos="fade-right") A continuación, se presentan los elementos más relevantes que influyen directamente en el proceso de validación de una propuesta técnica:
     .row.mb-5
       .col-12
@@ -144,7 +144,7 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-5.mb-4.mb-lg-0
                     p.mb-0 #[b Fundamentos]
-                    p.mb-0 El fin de los principios o fundamentos en contratación es garantizar a los ciudadanos un proceso público transparente y con igualdad, al que pueden acceder todas las personas o empresas que cumplan con los requisitos establecidos en un pliego de condiciones publicado por las entidades estatales. Estas pueden ser SENA, DIAN, Fuerzas Militares, ICBF, DANE, universidades, alcaldías, gobernaciones, etc.
+                    p.mb-0 El fin de los principios o fundamentos en contratación es garantizar a los ciudadanos un proceso público, transparente y con igualdad, al que pueden acceder todas las personas o empresas que cumplan con los requisitos establecidos en un pliego de condiciones publicado por las entidades estatales. Estas pueden ser SENA, DIAN, Fuerzas Militares, ICBF, DANE, universidades, alcaldías, gobernaciones, etc.
                   .col-lg-5
                     figure
                       img(src='@/assets/curso/tema6/img4.png', style="width:380px" alt='').m-auto
@@ -233,7 +233,10 @@
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
                 .row(titulo="Pliego de condiciones")
                   .col-12
-                    p.mb-0 La entidad estatal, que requiere obras, bienes o servicios, elabora un plan de compras que debe ser aprobado. Posteriormente, elabora y publica un pliego de condiciones "Borrador" en la página SECOP (https://colombiacompra.gov.co/), así como en la página web de la entidad, dentro de 10 días hábiles.
+                    p.mb-0 La entidad estatal, que requiere obras, bienes o servicios, elabora un plan de compras que debe ser aprobado. Posteriormente, elabora y publica un pliego de condiciones "Borrador" en la página SECOP 
+                      |
+                      a(href="https://colombiacompra.gov.co/" target="_blank") https://colombiacompra.gov.co/
+                      | , así como en la página web de la entidad, dentro de 10 días hábiles.
                 .row(titulo="Proponentes u oferentes")
                   .col-12
                     p.mb-0 Las personas interesadas, también llamadas proponentes u oferentes, pueden solicitar aclaraciones del pliego de condiciones dentro del término de los 10 días hábiles. Con la resolución de apertura del proceso se incluye el cronograma de presentación de propuestas, lo que conlleva a la publicación del pliego de condiciones definitivo.

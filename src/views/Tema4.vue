@@ -63,7 +63,11 @@
                   figure.mb-4
                     img(src='@/assets/curso/tema4/img4.png', style="width:400px" alt='').m-auto
                   p.text-center #[b Consulta]
-                  p.text-center.mb-0 Ingresar a la página https://www.rues.org.co/ para adquirir un certificado de la empresa, evitando tratar con intermediarios y obteniendo un concepto claro del tipo y tamaño de la empresa.
+                  p.text-center.mb-0 Ingresar a la página 
+                    |
+                    a(href="https://www.rues.org.co/" target="_blank") https://www.rues.org.co/
+                    | 
+                    |para adquirir un certificado de la empresa, evitando tratar con intermediarios y obteniendo un concepto claro del tipo y tamaño de la empresa.
             .tarjeta.color-acento-botones.p-4
               .row
                 .col-12
@@ -105,7 +109,7 @@
                   figure.mb-4
                     img(src='@/assets/curso/tema4/img10.png', style="width:400px" alt='').m-auto
                   p.text-center #[b Monetización]
-                  p.text-center.mb-0 Proceso por medio del cual una determinada acción es convertida en dinero. Término usado, generalmente, en redes sociales y plataformas con streaming.
+                  p.text-center.mb-0 Proceso por medio del cual una determinada acción es convertida en dinero. Término usado, generalmente, en redes sociales y plataformas con #[i streaming].
             .tarjeta.color-acento-botones.p-4
               .row
                 .col-12
@@ -125,7 +129,7 @@
                 .col-12
                   figure.mb-4
                     img(src='@/assets/curso/tema4/img13.png', style="width:400px" alt='').m-auto
-                  p.text-center #[b Freelance]
+                  p.text-center #[b #[i Freelance]]
                   p.text-center.mb-0 Trabajo o trabajador independiente.
     p.mb-5(data-aos="fade-right") Cuando se trabaja con clientes en proyectos, especialmente en áreas como el desarrollo de #[i software], es esencial estructurar la interacción y comprensión de las necesidades y expectativas del cliente de manera organizada. A continuación, se presentan los aspectos clave para gestionar y entender eficazmente las relaciones y requisitos del cliente, facilitando así una comunicación efectiva y la toma de decisiones informadas.
     .row
@@ -137,7 +141,7 @@
           .row(titulo="Relación con el cliente")
             .col-12
               p.mb-0 Establecer una relación cordial para generar una conexión cercana y comprender lo que busca el cliente.
-          .row(titulo="Identificar stakeholders")
+          .row(titulo="Identificar <i>stakeholders</i>")
             .col-12
               p.mb-0 Considerar las expectativas y necesidades de cada funcionario, que varían según su cargo y rol dentro de la empresa.
           .row(titulo="Identificar necesidades")

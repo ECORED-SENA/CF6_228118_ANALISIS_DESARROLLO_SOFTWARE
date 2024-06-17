@@ -58,7 +58,7 @@
                 img(src='@/assets/curso/tema1/img8.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Diligenciamiento
-    p.mb-5(data-aos="fade-right") A continuación, se realiza la descripción para el diligenciamiento de un ejemplo de una ficha técnica de productos de software.
+    p.mb-5(data-aos="fade-right") A continuación, se realiza la descripción para el diligenciamiento de un ejemplo de una ficha técnica de productos de #[i software].
     .row.bg-c27
       .col-12
         .px-5
@@ -92,7 +92,7 @@
                           p #[b DESCRIPCIÓN DEL PRODUCTO]
                           br
                           p.mb-0 #[b Descripción general del producto:] descripción breve del nombre del producto.
-                          p.mb-0 Objetivo
+                          p.mb-0 #[b Objetivo:] definir el propósito principal del producto, especificando el problema que resuelve o la necesidad que satisface.
                       tr
                         td(colspan="2")
                           p #[b ARQUITECTURA]
@@ -103,13 +103,13 @@
                           p #[b REQUERIMIENTOS DEL PRODUCTO]
                           br
                           p.mb-0 #[b Requisitos del sistema (servidor)]
-                          p.mb-0 #[b Hardware:] se describen los requerimientos físicos mínimos que debe tener el equipo.
-                          p.mb-0 #[b Software:] se describen los requerimientos lógicos necesarios para la ejecución del aplicativo.
+                          p.mb-0 #[b #[i Hardware]:] se describen los requerimientos físicos mínimos que debe tener el equipo.
+                          p.mb-0 #[b #[i Software]:] se describen los requerimientos lógicos necesarios para la ejecución del aplicativo.
                           p.mb-0 #[b Otros:] recomendaciones para que el aplicativo funcione mejor.
                           br
                           p.mb-0 #[b Requisitos del sistema (cliente)]
-                          p.mb-0 #[b Hardware:] se describen los requerimientos físicos mínimos que debe tener el equipo.
-                          p.mb-0 #[b Software:] se describen los requerimientos lógicos necesarios para la ejecución del aplicativo.
+                          p.mb-0 #[b #[i Hardware]:] se describen los requerimientos físicos mínimos que debe tener el equipo.
+                          p.mb-0 #[b #[i Software]:] se describen los requerimientos lógicos necesarios para la ejecución del aplicativo.
                           p.mb-0 #[b Otros:] recomendaciones para que el aplicativo funcione mejor.
                       tr
                         td(colspan="2")
@@ -134,12 +134,12 @@
                     tbody
                       tr
                         td 00
-                        td Actualización documento
+                        td Actualización del documento
                         td 25/05/2021
                         td 25/06/2021
                       tr
                         td 01
-                        td Actualización documento
+                        td Actualización del documento
                         td 25/07/2021
                         td 25/08/2021
           .row

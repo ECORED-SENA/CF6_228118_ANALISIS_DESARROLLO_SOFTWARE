@@ -11,7 +11,7 @@
         figure.mt-2
           img(src='@/assets/curso/tema2/img1.svg', style="width:70px" alt='').m-auto
       .col(data-aos="fade-left")
-        p.mb-0 Una licencia de #[i software] es un acuerdo esencial que regula el uso y distribución de obras intelectuales en la tecnología. Este contrato establece las condiciones clave para el uso de software, resaltando la importancia de los derechos de autor y la propiedad intelectual. En el siguiente video, se presenta una explicación:
+        p.mb-0 Una licencia de #[i software] es un acuerdo esencial que regula el uso y distribución de obras intelectuales en la tecnología. Este contrato establece las condiciones clave para el uso de #[i software], resaltando la importancia de los derechos de autor y la propiedad intelectual. En el siguiente video, se presenta una explicación:
     .row.justify-content-center.mb-5
       .col-lg-10
         figure(data-aos="fade-down")
@@ -24,6 +24,7 @@
           .row.justify-content-center.mb-5(data-aos="fade-left")
             .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
               .crd_hover_txt2(data-aos="flip-right")
+                .indicador--click(v-if="mostrarIndicador")
                 .crd_hover_txt2--img
                   figure
                     img(src="@/assets/curso/tema2/img2.png", alt="alt")
@@ -32,6 +33,7 @@
                   p.text-white.mb-0 Este término se refiere a un acuerdo o contrato entre un desarrollador y un usuario, en el que el #[i software] está sujeto a propiedad intelectual y derechos de autor. La licencia detalla los derechos y obligaciones de ambas partes. La elección de la licencia de distribución del #[i software] depende del desarrollador.
             .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
               .crd_hover_txt2(data-aos="flip-left")
+                .indicador--click(v-if="mostrarIndicador")
                 .crd_hover_txt2--img
                   figure
                     img(src="@/assets/curso/tema2/img3.png", alt="alt")
@@ -224,7 +226,7 @@
                 .col-12
                   .p-4.bg-c23
                     p.text-center #[b #[i Copyleft]]
-                    p.text-center Es una versión del copyright diseñada para regular las licencias de software libre. Impide que el material sea distribuido o reformado por alguien no autorizado y establece condiciones específicas de uso del código.
+                    p.text-center Es una versión del copyright diseñada para regular las licencias de #[i software] libre. Impide que el material sea distribuido o reformado por alguien no autorizado y establece condiciones específicas de uso del código.
             .col-10.col-md-7.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               .row
                 .col-12
@@ -233,7 +235,7 @@
                 .col-12
                   .p-4.bg-c23
                     p.text-center #[b Licencia de #[i software] libre sin protección #[i copyleft]]
-                    p.text-center Permite a terceros modificar el producto y licenciarlo bajo sus propios términos, sin imponer restricciones sobre cómo se puede redistribuir el software modificado.
+                    p.text-center Permite a terceros modificar el producto y licenciarlo bajo sus propios términos, sin imponer restricciones sobre cómo se puede redistribuir el #[i software] modificado.
             .col-10.col-md-7.col-lg-4(data-aos="fade-right")
               .row
                 .col-12
@@ -252,7 +254,7 @@
                       img(src='@/assets/curso/tema1/img8.svg', style="width:50px" alt='').m-auto
                   .col
                     h3.text-white Licencias de #[i software shareware]
-          p.mb-5(data-aos="fade-right") Este tipo de licencia permite la descarga gratuita de una versión del #[i software] con funcionalidades limitadas. Tras un período determinado, para continuar utilizando todas las funcionalidades, el usuario debe realizar un pago. Estas licencias no permiten modificaciones, ya que no incluyen el código fuente. Se subdividen en tres categorías: trial, demo y adware.
+          p.mb-5(data-aos="fade-right") Este tipo de licencia permite la descarga gratuita de una versión del #[i software] con funcionalidades limitadas. Tras un período determinado, para continuar utilizando todas las funcionalidades, el usuario debe realizar un pago. Estas licencias no permiten modificaciones, ya que no incluyen el código fuente. Se subdividen en tres categorías: #[i trial], demo y #[i adware].
           .row.justify-content-center.mb-5
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .p-4.bg-c24(data-aos="fade-right")
@@ -297,7 +299,7 @@
                     img(src='@/assets/curso/tema2/img17.svg', style="width:60px" alt='').m-auto
                 .col
                   p.mb-0 Se refiere a la protección que se otorga a todas las obras artísticas, literarias o científicas por el derecho de autor durante un período determinado, a partir del momento de su creación. En Colombia, la Dirección Nacional de Derechos de Autor (DNDA) es la entidad encargada de proteger estas obras.
-              p.mb-0 Cuando el software está protegido por derechos de autor, es necesario establecer claramente en la licencia los usos que serán permitidos al usuario. Comúnmente, los usos autorizados incluyen:
+              p.mb-0 Cuando el #[i software] está protegido por derechos de autor, es necesario establecer claramente en la licencia los usos que serán permitidos al usuario. Comúnmente, los usos autorizados incluyen:
           .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2.px-lg-0.mt-4.mt-lg-0
             figure
               img(src='@/assets/curso/tema2/img13.png', style="width:260px" alt='').m-auto
@@ -311,7 +313,7 @@
             .p-4.bg-c25
               figure.mb-4
                 img(src='@/assets/curso/tema2/img19.svg', style="width:100px" alt='')
-              p.mb-0 La ejecución del código del #[i software], ya sea en dispositivos de almacenamiento oen el disco local del equipo donde se instalará el #[i software].
+              p.mb-0 La ejecución del código del #[i software], ya sea en dispositivos de almacenamiento o en el disco local del equipo donde se instalará el #[i software].
           .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0
             .p-4.bg-c25
               figure.mb-4
@@ -330,7 +332,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
