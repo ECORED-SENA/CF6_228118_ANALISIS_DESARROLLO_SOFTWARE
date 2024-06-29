@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.611" height="209.816" viewBox="0 0 118.611 209.816">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403039" data-name="Rectángulo 403039" width="118.611" height="166.213" fill="#12263f"/>
+    </clipPath>
+    <filter id="Elipse_11625" x="-51.707" y="21.48" width="336.63" height="335.888" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_401063" data-name="Rectángulo 401063" width="107.247" height="209.815" fill="#12263f" opacity="0.4"/>
+    </clipPath>
+    <filter id="Elipse_11447" x="-47.518" y="-60.812" width="351.039" height="350.24" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur-2"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1103124" data-name="Grupo 1103124" transform="translate(-1196.389 -1273.185)">
+    <g id="Enmascarar_grupo_1098749" data-name="Enmascarar grupo 1098749" transform="translate(1196.389 1316.787)" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, 0, -43.6)" filter="url(#Elipse_11625)">
+        <ellipse id="Elipse_11625-2" data-name="Elipse 11625" cx="93.195" cy="92.824" rx="93.195" ry="92.824" transform="translate(14.02 87.21)" fill="#fff" opacity="0.3"/>
+      </g>
+      <circle id="Elipse_11626" data-name="Elipse 11626" cx="33" cy="33" r="33" transform="translate(74.611 19)" fill="none" stroke="#fff" stroke-width="10" opacity="0.4"/>
+      <path id="Trazado_877973" data-name="Trazado 877973" d="M163.312,435.524l1.325-1.695-5.158-4.062,5.158-4.062-1.325-1.694L156,429.768Zm14.936-1.695-5.158-4.062,5.158-4.062-1.325-1.694-7.309,5.757,7.309,5.757Zm14.3,0-1.327-1.045-3.83-3.016,5.158-4.062-1.325-1.694-7.309,5.757,7.309,5.757Z" transform="translate(-152.943 -282.313)" fill="#3a1d71" fill-rule="evenodd"/>
+    </g>
+    <g id="Enmascarar_grupo_1098653" data-name="Enmascarar grupo 1098653" transform="translate(1207.753 1273.185)" opacity="0.2" clip-path="url(#clip-path-2)">
+      <g transform="matrix(1, 0, 0, 1, -11.36, 0)" filter="url(#Elipse_11447)">
+        <ellipse id="Elipse_11447-2" data-name="Elipse 11447" cx="100.4" cy="100" rx="100.4" ry="100" transform="translate(18.21 4.92)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

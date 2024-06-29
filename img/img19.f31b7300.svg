@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="147.335" height="189.204" viewBox="0 0 147.335 189.204">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_401063" data-name="Rectángulo 401063" width="147.335" height="189.204" fill="#12263f" opacity="0.4"/>
+    </clipPath>
+    <filter id="Elipse_11447" x="-58.979" y="-60.323" width="400.778" height="428.542" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Enmascarar_grupo_1098653" data-name="Enmascarar grupo 1098653" opacity="0.2" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_11447)">
+      <ellipse id="Elipse_11447-2" data-name="Elipse 11447" cx="125.269" cy="139.151" rx="125.269" ry="139.151" transform="translate(6.75 5.41)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
