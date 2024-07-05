@@ -36,7 +36,7 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:250px" alt='').m-auto
     p(data-aos="fade-right") La Teoría General de Sistemas (TGS) se presenta como un ejemplo de representación científica. En sus selecciones conceptuales, no hay definiciones o relaciones con contenidos preestablecidos, pero la observación sí se puede dirigir con referencia a ellas, haciéndola aplicar en contextos identificables. (Arnold, 1989). 
-    p.mb-5(data-aos="fade-right") Los objetivos originales de la Teoría General de Sistemas son los siguientes
+    p.mb-5(data-aos="fade-right") Los objetivos originales de la Teoría General de Sistemas son los siguientes:
     .row.justify-content-center.mb-5
       .col-11.col-md-8.col-lg.m-2(data-aos="fade-right")
         .row

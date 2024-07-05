@@ -43,7 +43,7 @@
                   h3.txt-c1.mb-1 Generalidades sobre ISO-9000
                   p Para obtener más información sobre la norma ISO, incluyendo sus objetivos, finalidades y terminología, puede consultar el siguiente sitio web.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Conceptos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es" target="_blank")
                     span Ver enlace
                     i.fas.fa-link
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
@@ -75,11 +75,12 @@
                         th.text-white Responsable (coordinador encargado)
                     tbody
                       tr
-                        td(colspan="2")
+                        td
                           p Para realizar el diligenciamiento de la ficha técnica, el coordinador técnico de desarrollo se apoya en el coordinador de base de datos y el coordinador de infraestructura.
                           p.mb-0 Se deben llenar los campos de acuerdo con:
+                        td
                       tr
-                        td(colspan="2")
+                        td
                           p #[b CARACTERÍSTICAS DEL PRODUCTO]
                           br
                           p.mb-0 #[b Nombre del producto:] nombre con el que será identificado el producto.
@@ -87,19 +88,22 @@
                           p.mb-0 #[b Versiones anteriores:] número y nombre del último desarrollo del producto.
                           p.mb-0 #[b Versión actual:] número con el que se identificará el nuevo producto.
                           p.mb-0 #[b Módulo:] nombre técnico del módulo.
+                        td
                       tr
-                        td(colspan="2")
+                        td
                           p #[b DESCRIPCIÓN DEL PRODUCTO]
                           br
                           p.mb-0 #[b Descripción general del producto:] descripción breve del nombre del producto.
                           p.mb-0 #[b Objetivo:] definir el propósito principal del producto, especificando el problema que resuelve o la necesidad que satisface.
+                        td
                       tr
-                        td(colspan="2")
+                        td
                           p #[b ARQUITECTURA]
                           br
                           p.mb-0 #[b Descripción:] explica el tipo de arquitectura de desarrollo del aplicativo.
+                        td
                       tr
-                        td(colspan="2")
+                        td
                           p #[b REQUERIMIENTOS DEL PRODUCTO]
                           br
                           p.mb-0 #[b Requisitos del sistema (servidor)]
@@ -111,13 +115,15 @@
                           p.mb-0 #[b #[i Hardware]:] se describen los requerimientos físicos mínimos que debe tener el equipo.
                           p.mb-0 #[b #[i Software]:] se describen los requerimientos lógicos necesarios para la ejecución del aplicativo.
                           p.mb-0 #[b Otros:] recomendaciones para que el aplicativo funcione mejor.
+                        td
                       tr
-                        td(colspan="2")
+                        td
                           p #[b REQUERIMIENTOS]
                           br
                           p.mb-0 #[b Requerimientos funcionales generales:] definición de funciones que el sistema realizará.
                           p.mb-0 #[b Requerimientos adicionales:] funcionalidades adicionales para el correcto funcionamiento del sistema.
                           p.mb-0 #[b Clientes del producto:] características del cliente o usuarios finales que puedan usar el producto.
+                        td
           .row.mb-5
             .col-12
               .p-4.p-lg-5.bg-c28(data-aos="fade-left")

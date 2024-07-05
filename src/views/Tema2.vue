@@ -200,7 +200,7 @@
               h3.text-white Licencias de #[i software] libre o #[i software] de código abierto
     .row.align-items-center.mb-3
       .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
-        p Este tipo de licencia se caracteriza porque los desarrolladores generalmente ofrecen acceso abierto al código fuente de su #[i software]. Existen diversas licencias creadas por organizaciones, entre las que destaca la GNU GPL (Licencia Pública General de GNU). Esta licencia, creada por la Fundación de Software Libre (Free Software Foundation), es ampliamente utilizada en el mundo del #[i software] libre y código abierto. Garantiza a los usuarios finales, ya sean personas, organizaciones o empresas la libertad de utilizar, estudiar, compartir (copiar) y modificar el #[i software].
+        p Este tipo de licencia se caracteriza porque los desarrolladores generalmente ofrecen acceso abierto al código fuente de su #[i software]. Existen diversas licencias creadas por organizaciones, entre las que destaca la GNU GPL (Licencia Pública General de GNU). Esta licencia, creada por la Fundación de Software Libre (Free Software Foundation), es ampliamente utilizada en el mundo del #[i software] libre y código abierto. Garantiza a los usuarios finales, ya sean personas, organizaciones o empresas, la libertad de utilizar, estudiar, compartir (copiar) y modificar el #[i software].
         .row
           .col-12
             .p-4.bg-c17
