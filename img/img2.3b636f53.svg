@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.61" height="162.529" viewBox="0 0 118.61 162.529">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403435" data-name="Rectángulo 403435" width="118.61" height="162.529" transform="translate(0 0)" fill="#12263f"/>
+    </clipPath>
+    <filter id="Elipse_11678" x="-51.707" y="-23.089" width="336.629" height="331.773" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Enmascarar_grupo_1098793" data-name="Enmascarar grupo 1098793" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_11678)">
+      <ellipse id="Elipse_11678-2" data-name="Elipse 11678" cx="93.195" cy="90.767" rx="93.195" ry="90.767" transform="translate(14.02 42.64)" fill="#fff" opacity="0.4"/>
+    </g>
+    <ellipse id="Elipse_11679" data-name="Elipse 11679" cx="33" cy="32.269" rx="33" ry="32.269" transform="translate(74.61 18.579)" fill="none" stroke="#fff" stroke-width="10" opacity="0.6"/>
+    <path id="Trazado_879107" data-name="Trazado 879107" d="M163.312,435.269l1.325-1.657-5.158-3.972,5.158-3.972-1.325-1.657L156,429.64Zm14.936-1.657-5.158-3.972,5.158-3.972-1.325-1.657-7.309,5.629,7.309,5.629Zm14.3,0-1.327-1.022-3.83-2.95,5.158-3.972-1.325-1.657-7.309,5.629,7.309,5.629Z" transform="translate(-152.943 -285.454)" fill="#3a1d71" fill-rule="evenodd"/>
+  </g>
+</svg>
